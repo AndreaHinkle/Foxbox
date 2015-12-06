@@ -71,7 +71,7 @@ html, body{
    margin:0 10px;
  }
  header nav ul > li.btn-outline {
-   padding:10px 15px;
+   padding:10px;
    border:2px solid #006666;
    border-radius: 4px;
  }
