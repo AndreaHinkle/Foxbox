@@ -9,7 +9,7 @@ html, body{
    font-family: "Andada", Helvetica, Arial, sans-serif;
  }
  h2 {
-   font-size:32px;
+   font-size:28px;
    font-weight: normal;
    margin-bottom: 5px;
  }
@@ -148,11 +148,20 @@ header .btn {
    color:#269e99;
    font-size:60px;
    margin:0;
+   padding: 0;
    vertical-align: middle;
  }
  .benefits h2 {
    color:#333333;
+   margin-top:0;
+   margin-botom: 10px;
  }
+
+ .benefits p { 
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
 
 
  /* PRICING */
@@ -302,6 +311,7 @@ header .btn {
    margin: 0 auto;
    padding-bottom: 4em;
    text-align: center;
+   background:#E2E2E2;
 }
 
 .lactchance .box .btn {
@@ -476,11 +486,11 @@ header .btn {
  }
 
 .item-box { 
-  opacity: 0.5;
+  opacity: 1.0;
 }
 
  .item-box:hover{ 
-  opacity: 1.0;
+  opacity: 0.5;
 }
 
  .item-box {
@@ -566,10 +576,10 @@ header .btn {
  
 /*----- Menu Outline -----*/
 
-.settingmenu ul { -webkit-padding-start: 0px; }
  
 .settingsmenu li {
-    margin:0px;
+    margin-bottom:10px;
+    margin-top: 0px;
     list-style:none;
     text-align: right;
 }
@@ -703,10 +713,21 @@ header .btn {
    }
  }
 
- @media (min-width : 1824px) {
+ @media (min-width : 1630px) {
    .container {
-     width: 1785px;
+     width: 1600px;
    }
+
+   header .hero h1 {
+   font-size:62px;
+   font-weight: normal;
+   margin:65px 0 0;
+ }
+ header .hero p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 30px;
  }
 
  @media (min-width: 992px){
@@ -738,6 +759,7 @@ header .btn {
      float:left;
      display:block;
    }
+
  }
 /* Tablets */
  @media (min-width:768px) {
@@ -754,6 +776,9 @@ header .btn {
      width:31.33333%;
      margin:0 1% 25px;
    }
+    .benefits p { 
+    width: 300px;
+}
  }
 /* Laptops and Desktops */
  @media (min-width:992px) {
